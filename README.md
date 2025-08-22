@@ -1,8 +1,5 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/51CAWZT5)
-Sismics Rudra's Subscription Service (RSS) - Reader: Project 1
+RSS-Reader-Feature-Addition-and-Code-Cleanup
 ==============
-
-**Do not modify this README. Use the docs directory for anything you might want to submit**
 
 What is RSS-Reader?
 ---------------
