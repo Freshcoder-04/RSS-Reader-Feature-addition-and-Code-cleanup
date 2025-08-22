@@ -1,0 +1,27 @@
+./reader-web/src/main/java/com/sismics/reader/rest/assembler/ArticleAssembler.java:13:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-web/src/main/java/com/sismics/reader/rest/resource/AllResource.java:17:	UnnecessaryImport:	Unused import 'javax.ws.rs.*'
+./reader-web/src/main/java/com/sismics/reader/rest/resource/AppResource.java:20:	UnnecessaryImport:	Unused import 'javax.ws.rs.*'
+./reader-web/src/main/java/com/sismics/reader/rest/resource/AppResource.java:81:	SimplifyConditional:	No need to check for null before an instanceof
+./reader-web/src/main/java/com/sismics/reader/rest/resource/ArticleResource.java:16:	UnnecessaryImport:	Unused import 'javax.ws.rs.*'
+./reader-web/src/main/java/com/sismics/reader/rest/resource/BaseResource.java:46:	SimplifyConditional:	No need to check for null before an instanceof
+./reader-web/src/main/java/com/sismics/reader/rest/resource/BaseResource.java:72:	SimplifyConditional:	No need to check for null before an instanceof
+./reader-web/src/main/java/com/sismics/reader/rest/resource/CategoryResource.java:22:	UnnecessaryImport:	Unused import 'javax.ws.rs.*'
+./reader-web/src/main/java/com/sismics/reader/rest/resource/CategoryResource.java:104:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+./reader-web/src/main/java/com/sismics/reader/rest/resource/CategoryResource.java:204:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+./reader-web/src/main/java/com/sismics/reader/rest/resource/CategoryResource.java:246:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+./reader-web/src/main/java/com/sismics/reader/rest/resource/CategoryResource.java:299:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+./reader-web/src/main/java/com/sismics/reader/rest/resource/SearchResource.java:14:	UnnecessaryImport:	Unused import 'javax.ws.rs.*'
+./reader-web/src/main/java/com/sismics/reader/rest/resource/StarredResource.java:15:	UnnecessaryImport:	Unused import 'javax.ws.rs.*'
+./reader-web/src/main/java/com/sismics/reader/rest/resource/SubscriptionResource.java:4:	UnnecessaryImport:	Unused import 'com.sismics.reader.core.dao.jpa.*'
+./reader-web/src/main/java/com/sismics/reader/rest/resource/SubscriptionResource.java:11:	UnnecessaryImport:	Unused import 'com.sismics.reader.core.model.jpa.*'
+./reader-web/src/main/java/com/sismics/reader/rest/resource/SubscriptionResource.java:37:	UnnecessaryImport:	Unused import 'javax.ws.rs.*'
+./reader-web/src/main/java/com/sismics/reader/rest/resource/SubscriptionResource.java:406:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+./reader-web/src/main/java/com/sismics/reader/rest/resource/SubscriptionResource.java:553:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-web/src/main/java/com/sismics/reader/rest/resource/SubscriptionResource.java:573:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-web/src/main/java/com/sismics/reader/rest/resource/UserResource.java:4:	UnnecessaryImport:	Unused import 'com.sismics.reader.core.dao.jpa.*'
+./reader-web/src/main/java/com/sismics/reader/rest/resource/UserResource.java:35:	UnnecessaryImport:	Unused import 'javax.ws.rs.*'
+./reader-web/src/main/java/com/sismics/reader/rest/util/ValidationUtil.java:19:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-web/src/test/java/com/sismics/reader/rest/TestJobResource.java:38:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-web/src/test/java/com/sismics/reader/rest/TestSubscriptionResource.java:409:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-web/src/test/java/com/sismics/reader/rest/TestSubscriptionResource.java:456:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-web/src/test/java/com/sismics/reader/rest/TestSubscriptionResource.java:505:	CloseResource:	Ensure that resources like this InputStream object are closed after use

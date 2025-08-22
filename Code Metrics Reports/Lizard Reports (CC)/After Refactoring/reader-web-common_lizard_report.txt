@@ -1,0 +1,125 @@
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+      15      3     84      0      17 TestValidationUtil::testValidateHttpUrlFail@17-33@reader-web-common/src/test/java/com/sismics/reader/rest/util/TestValidationUtil.java
+      11      1     77      0      15 JerseyTestWebAppDescriptorFactory::build@23-37@reader-web-common/src/test/java/com/sismics/reader/rest/descriptor/JerseyTestWebAppDescriptorFactory.java
+       3      1     13      1       3 CookieAuthenticationFilter::CookieAuthenticationFilter@22-24@reader-web-common/src/test/java/com/sismics/reader/rest/filter/CookieAuthenticationFilter.java
+      13      3    102      1      13 CookieAuthenticationFilter::handle@27-39@reader-web-common/src/test/java/com/sismics/reader/rest/filter/CookieAuthenticationFilter.java
+       3      1     14      0       3 BaseJerseyTest::BaseJerseyTest@71-73@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       7      1     37      0       9 BaseJerseyTest::setUp@77-85@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       5      1     25      0       5 BaseJerseyTest::tearDown@89-93@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       8      1    110      0      14 BaseJerseyTest::startHttpServer@99-112@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       5      1     39      0       5 BaseJerseyTest::addTempFileHandler@119-123@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+      12      2     94      0      13 BaseJerseyTest::popEmail@130-142@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       7      1     55      1       7 BaseJerseyTest::encodeQuotedPrintable@150-156@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       8      2     64      1      14 BaseJerseyTest::copyTempResource@158-171@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       8      1     31      1       9 BaseJerseyTest::withNetworkDown@179-187@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+      11      1     52      1      16 BaseJerseyTest::createUser@194-209@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+      10      1     71      3      11 BaseJerseyTest::login@219-229@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       3      1     10      0       3 BaseJerseyTest::assertIsOk@231-233@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       3      1     14      1       3 BaseJerseyTest::assertIsOk@235-237@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       3      1     10      0       3 BaseJerseyTest::assertIsBadRequest@239-241@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       3      1     14      1       3 BaseJerseyTest::assertIsBadRequest@243-245@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       3      1     10      0       3 BaseJerseyTest::assertIsForbidden@247-249@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       3      1     14      1       3 BaseJerseyTest::assertIsForbidden@251-253@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       3      1     29      2       3 BaseJerseyTest::assertStatus@255-257@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       3      1     17      1       3 BaseJerseyTest::login@265-267@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       4      1     14      0       4 BaseJerseyTest::logout@273-276@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       9      3     53      1       9 BaseJerseyTest::getAuthenticationCookie@284-292@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       4      1     31      0       4 BaseJerseyTest::synchronizeAllFeed@297-300@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       8      2     91      2       8 BaseJerseyTest::GET@302-309@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       4      1     26      1       4 BaseJerseyTest::GET@311-314@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       9      2     92      2       9 BaseJerseyTest::PUT@316-324@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       5      1     49      2       5 BaseJerseyTest::PUT@326-330@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       3      1     22      1       3 BaseJerseyTest::PUT@332-334@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       9      2     92      2       9 BaseJerseyTest::POST@336-344@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       9      2     92      2       9 BaseJerseyTest::POST@346-354@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       3      1     22      1       3 BaseJerseyTest::POST@356-358@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       5      1     37      1       5 BaseJerseyTest::DELETE@360-364@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       7      2     62      1       7 BaseJerseyTest::builder@366-372@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       7      3     52      0       7 BaseJerseyTest::addCookiesFromResponse@374-380@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       3      1     15      0       3 BaseJerseyTest::getJsonResult@382-384@reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+       3      1     17      1       3 SecurityFilter::hasIdentifiedUser@45-47@reader-web-common/src/main/java/com/sismics/util/filter/SecurityFilter.java
+       6      3     37      2       7 SecurityFilter::injectUser@55-61@reader-web-common/src/main/java/com/sismics/util/filter/SecurityFilter.java
+       9      1     91      2      14 SecurityFilter::injectAuthenticatedUser@69-82@reader-web-common/src/main/java/com/sismics/util/filter/SecurityFilter.java
+       4      1     38      1       5 SecurityFilter::injectAnonymousUser@89-93@reader-web-common/src/main/java/com/sismics/util/filter/SecurityFilter.java
+       2      1      9      1       3 SecurityFilter::init@96-98@reader-web-common/src/main/java/com/sismics/util/filter/SecurityFilter.java
+       2      1      5      0       3 SecurityFilter::destroy@101-103@reader-web-common/src/main/java/com/sismics/util/filter/SecurityFilter.java
+       8      2     61      3      10 SecurityFilter::doFilter@106-115@reader-web-common/src/main/java/com/sismics/util/filter/SecurityFilter.java
+       1      1      5      0       1 HeaderBasedSecurityFilter::HeaderBasedSecurityFilter@20-20@reader-web-common/src/main/java/com/sismics/util/filter/HeaderBasedSecurityFilter.java
+       5      2     46      1       6 HeaderBasedSecurityFilter::init@23-28@reader-web-common/src/main/java/com/sismics/util/filter/HeaderBasedSecurityFilter.java
+       5      2     33      1       6 HeaderBasedSecurityFilter::authenticate@31-36@reader-web-common/src/main/java/com/sismics/util/filter/HeaderBasedSecurityFilter.java
+      25      5    177      1      35 RequestContextFilter::init@38-72@reader-web-common/src/main/java/com/sismics/util/filter/RequestContextFilter.java
+      12      1    101      0      12 RequestContextFilter::addFileLogger@77-88@reader-web-common/src/main/java/com/sismics/util/filter/RequestContextFilter.java
+       2      1      5      0       3 RequestContextFilter::destroy@91-93@reader-web-common/src/main/java/com/sismics/util/filter/RequestContextFilter.java
+      51     14    335      3      61 RequestContextFilter::doFilter@96-156@reader-web-common/src/main/java/com/sismics/util/filter/RequestContextFilter.java
+       7      5     56      1       8 TokenBasedSecurityFilter::extractAuthToken@45-52@reader-web-common/src/main/java/com/sismics/util/filter/TokenBasedSecurityFilter.java
+       8      3     51      2       8 TokenBasedSecurityFilter::handleExpiredToken@59-66@reader-web-common/src/main/java/com/sismics/util/filter/TokenBasedSecurityFilter.java
+      11      3     98      1      11 TokenBasedSecurityFilter::isTokenExpired@74-84@reader-web-common/src/main/java/com/sismics/util/filter/TokenBasedSecurityFilter.java
+      16      4    107      1      21 TokenBasedSecurityFilter::authenticate@87-107@reader-web-common/src/main/java/com/sismics/util/filter/TokenBasedSecurityFilter.java
+       4      1     22      2       4 AnonymousPrincipal::AnonymousPrincipal@30-33@reader-web-common/src/main/java/com/sismics/security/AnonymousPrincipal.java
+       3      1      8      0       3 AnonymousPrincipal::getId@36-38@reader-web-common/src/main/java/com/sismics/security/AnonymousPrincipal.java
+       3      1      8      0       3 AnonymousPrincipal::getName@41-43@reader-web-common/src/main/java/com/sismics/security/AnonymousPrincipal.java
+       3      1      8      0       3 AnonymousPrincipal::isAnonymous@46-48@reader-web-common/src/main/java/com/sismics/security/AnonymousPrincipal.java
+       3      1      8      0       3 AnonymousPrincipal::getLocale@51-53@reader-web-common/src/main/java/com/sismics/security/AnonymousPrincipal.java
+       3      1      8      0       3 AnonymousPrincipal::getDateTimeZone@56-58@reader-web-common/src/main/java/com/sismics/security/AnonymousPrincipal.java
+       3      1      8      0       3 AnonymousPrincipal::getEmail@61-63@reader-web-common/src/main/java/com/sismics/security/AnonymousPrincipal.java
+       4      1     22      2       4 UserPrincipal::UserPrincipal@50-53@reader-web-common/src/main/java/com/sismics/security/UserPrincipal.java
+       3      1      8      0       3 UserPrincipal::isAnonymous@56-58@reader-web-common/src/main/java/com/sismics/security/UserPrincipal.java
+       3      1      8      0       3 UserPrincipal::getId@61-63@reader-web-common/src/main/java/com/sismics/security/UserPrincipal.java
+       3      1     13      1       3 UserPrincipal::setId@70-72@reader-web-common/src/main/java/com/sismics/security/UserPrincipal.java
+       3      1      8      0       3 UserPrincipal::getName@75-77@reader-web-common/src/main/java/com/sismics/security/UserPrincipal.java
+       3      1     13      1       3 UserPrincipal::setName@84-86@reader-web-common/src/main/java/com/sismics/security/UserPrincipal.java
+       3      1      8      0       3 UserPrincipal::getLocale@89-91@reader-web-common/src/main/java/com/sismics/security/UserPrincipal.java
+       3      1     13      1       3 UserPrincipal::setLocale@98-100@reader-web-common/src/main/java/com/sismics/security/UserPrincipal.java
+       3      1      8      0       3 UserPrincipal::getDateTimeZone@103-105@reader-web-common/src/main/java/com/sismics/security/UserPrincipal.java
+       3      1     13      1       3 UserPrincipal::setDateTimeZone@112-114@reader-web-common/src/main/java/com/sismics/security/UserPrincipal.java
+       3      1      8      0       3 UserPrincipal::getEmail@117-119@reader-web-common/src/main/java/com/sismics/security/UserPrincipal.java
+       3      1     13      1       3 UserPrincipal::setEmail@126-128@reader-web-common/src/main/java/com/sismics/security/UserPrincipal.java
+       3      1      8      0       3 UserPrincipal::getBaseFunctionSet@135-137@reader-web-common/src/main/java/com/sismics/security/UserPrincipal.java
+       3      1     16      1       3 UserPrincipal::setBaseFunctionSet@144-146@reader-web-common/src/main/java/com/sismics/security/UserPrincipal.java
+      17      4    145      3      17 JsonUtil::append@22-38@reader-web-common/src/main/java/com/sismics/rest/util/JsonUtil.java
+       5      2     36      2       5 ValidationUtil::validateRequired@31-35@reader-web-common/src/main/java/com/sismics/rest/util/ValidationUtil.java
+      16      8    141      5      16 ValidationUtil::validateLength@47-62@reader-web-common/src/main/java/com/sismics/rest/util/ValidationUtil.java
+       3      1     32      4       3 ValidationUtil::validateLength@73-75@reader-web-common/src/main/java/com/sismics/rest/util/ValidationUtil.java
+       3      1     26      2       3 ValidationUtil::validateStringNotBlank@84-86@reader-web-common/src/main/java/com/sismics/rest/util/ValidationUtil.java
+       5      2     44      2       5 ValidationUtil::validateEmail@94-98@reader-web-common/src/main/java/com/sismics/rest/util/ValidationUtil.java
+       7      2     56      2       7 ValidationUtil::validateHttpUrl@107-113@reader-web-common/src/main/java/com/sismics/rest/util/ValidationUtil.java
+       5      2     44      2       5 ValidationUtil::validateAlphanumeric@121-125@reader-web-common/src/main/java/com/sismics/rest/util/ValidationUtil.java
+      14      4     97      3      14 ValidationUtil::validateDate@135-148@reader-web-common/src/main/java/com/sismics/rest/util/ValidationUtil.java
+      16      3    102      1      19 GenericExceptionMapper::toResponse@26-44@reader-web-common/src/main/java/com/sismics/rest/resource/GenericExceptionMapper.java
+       3      1     14      0       3 ForbiddenClientException::ForbiddenClientException@31-33@reader-web-common/src/main/java/com/sismics/rest/exception/ForbiddenClientException.java
+       6      1     61      2       6 ForbiddenClientException::ForbiddenClientException@41-46@reader-web-common/src/main/java/com/sismics/rest/exception/ForbiddenClientException.java
+       4      1     35      3       4 ForbiddenClientException::ForbiddenClientException@55-58@reader-web-common/src/main/java/com/sismics/rest/exception/ForbiddenClientException.java
+       4      1     35      3       4 ClientException::ClientException@35-38@reader-web-common/src/main/java/com/sismics/rest/exception/ClientException.java
+       5      1     50      2       5 ClientException::ClientException@46-50@reader-web-common/src/main/java/com/sismics/rest/exception/ClientException.java
+       4      1     35      3       4 ServerException::ServerException@35-38@reader-web-common/src/main/java/com/sismics/rest/exception/ServerException.java
+       5      1     50      2       5 ServerException::ServerException@46-50@reader-web-common/src/main/java/com/sismics/rest/exception/ServerException.java
+17 file analyzed.
+==============================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+--------------------------------------------------------------
+     23      15.0     3.0       84.0         1     reader-web-common/src/test/java/com/sismics/reader/rest/util/TestValidationUtil.java
+     20      11.0     1.0       77.0         1     reader-web-common/src/test/java/com/sismics/reader/rest/descriptor/JerseyTestWebAppDescriptorFactory.java
+     29       8.0     2.0       57.5         2     reader-web-common/src/test/java/com/sismics/reader/rest/filter/CookieAuthenticationFilter.java
+    244       5.8     1.3       42.9        34     reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java
+     57       4.9     1.4       36.9         7     reader-web-common/src/main/java/com/sismics/util/filter/SecurityFilter.java
+     24       3.7     1.7       28.0         3     reader-web-common/src/main/java/com/sismics/util/filter/HeaderBasedSecurityFilter.java
+    118      22.5     5.2      154.5         4     reader-web-common/src/main/java/com/sismics/util/filter/RequestContextFilter.java
+     57      10.5     3.8       78.0         4     reader-web-common/src/main/java/com/sismics/util/filter/TokenBasedSecurityFilter.java
+     36       3.1     1.0       10.0         7     reader-web-common/src/main/java/com/sismics/security/AnonymousPrincipal.java
+     11       0.0     0.0        0.0         0     reader-web-common/src/main/java/com/sismics/security/IPrincipal.java
+     61       3.1     1.0       11.4        14     reader-web-common/src/main/java/com/sismics/security/UserPrincipal.java
+     23      17.0     4.0      145.0         1     reader-web-common/src/main/java/com/sismics/rest/util/JsonUtil.java
+     72       7.2     2.8       59.5         8     reader-web-common/src/main/java/com/sismics/rest/util/ValidationUtil.java
+     30      16.0     3.0      102.0         1     reader-web-common/src/main/java/com/sismics/rest/resource/GenericExceptionMapper.java
+     25       4.3     1.0       36.7         3     reader-web-common/src/main/java/com/sismics/rest/exception/ForbiddenClientException.java
+     21       4.5     1.0       42.5         2     reader-web-common/src/main/java/com/sismics/rest/exception/ClientException.java
+     21       4.5     1.0       42.5         2     reader-web-common/src/main/java/com/sismics/rest/exception/ServerException.java
+
+===============================================================================================================
+No thresholds exceeded (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100)
+==========================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+       872       6.4     1.7       45.1       94            0      0.00    0.00

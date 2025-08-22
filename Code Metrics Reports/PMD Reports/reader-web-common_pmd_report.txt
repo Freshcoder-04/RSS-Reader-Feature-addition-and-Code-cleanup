@@ -1,0 +1,39 @@
+./reader-web-common/src/main/java/com/sismics/rest/exception/ClientException.java:37:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+./reader-web-common/src/main/java/com/sismics/rest/exception/ServerException.java:37:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+./reader-web-common/src/main/java/com/sismics/rest/util/JsonUtil.java:12:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-web-common/src/main/java/com/sismics/rest/util/JsonUtil.java:30:	UselessParentheses:	Useless parentheses.
+./reader-web-common/src/main/java/com/sismics/rest/util/ValidationUtil.java:18:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-web-common/src/main/java/com/sismics/rest/util/ValidationUtil.java:146:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+./reader-web-common/src/main/java/com/sismics/security/AnonymousPrincipal.java:28:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
+./reader-web-common/src/main/java/com/sismics/security/IPrincipal.java:26:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'getId': the method is declared in an interface type
+./reader-web-common/src/main/java/com/sismics/security/IPrincipal.java:33:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'getLocale': the method is declared in an interface type
+./reader-web-common/src/main/java/com/sismics/security/IPrincipal.java:40:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'getDateTimeZone': the method is declared in an interface type
+./reader-web-common/src/main/java/com/sismics/security/IPrincipal.java:47:	UnnecessaryModifier:	Unnecessary modifier 'public' on method 'getEmail': the method is declared in an interface type
+./reader-web-common/src/main/java/com/sismics/util/filter/HeaderBasedSecurityFilter.java:30:	ControlStatementBraces:	This statement should have braces
+./reader-web-common/src/main/java/com/sismics/util/filter/HeaderBasedSecurityFilter.java:33:	UselessParentheses:	Useless parentheses.
+./reader-web-common/src/main/java/com/sismics/util/filter/RequestContextFilter.java:18:	UnnecessaryImport:	Unused import 'javax.servlet.*'
+./reader-web-common/src/main/java/com/sismics/util/filter/RequestContextFilter.java:60:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+./reader-web-common/src/main/java/com/sismics/util/filter/SecurityFilter.java:13:	UnnecessaryImport:	Unused import 'javax.servlet.*'
+./reader-web-common/src/main/java/com/sismics/util/filter/SecurityFilter.java:58:	ControlStatementBraces:	This statement should have braces
+./reader-web-common/src/main/java/com/sismics/util/filter/SecurityFilter.java:60:	ControlStatementBraces:	This statement should have braces
+./reader-web-common/src/main/java/com/sismics/util/filter/TokenBasedSecurityFilter.java:47:	ControlStatementBraces:	This statement should have braces
+./reader-web-common/src/main/java/com/sismics/util/filter/TokenBasedSecurityFilter.java:47:	ControlStatementBraces:	This statement should have braces
+./reader-web-common/src/main/java/com/sismics/util/filter/TokenBasedSecurityFilter.java:49:	ControlStatementBraces:	This statement should have braces
+./reader-web-common/src/main/java/com/sismics/util/filter/TokenBasedSecurityFilter.java:64:	ControlStatementBraces:	This statement should have braces
+./reader-web-common/src/main/java/com/sismics/util/filter/TokenBasedSecurityFilter.java:91:	ControlStatementBraces:	This statement should have braces
+./reader-web-common/src/main/java/com/sismics/util/filter/TokenBasedSecurityFilter.java:97:	ControlStatementBraces:	This statement should have braces
+./reader-web-common/src/main/java/com/sismics/util/filter/TokenBasedSecurityFilter.java:106:	UselessParentheses:	Useless parentheses.
+./reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java:101:	UnusedLocalVariable:	Avoid unused local variables such as 'listener'.
+./reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java:151:	CloseResource:	Ensure that resources like this OutputStream object are closed after use
+./reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java:300:	MethodNamingConventions:	The instance method name 'GET' doesn't match '[a-z][a-zA-Z0-9]*'
+./reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java:309:	MethodNamingConventions:	The instance method name 'GET' doesn't match '[a-z][a-zA-Z0-9]*'
+./reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java:314:	MethodNamingConventions:	The instance method name 'PUT' doesn't match '[a-z][a-zA-Z0-9]*'
+./reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java:324:	MethodNamingConventions:	The instance method name 'PUT' doesn't match '[a-z][a-zA-Z0-9]*'
+./reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java:330:	MethodNamingConventions:	The instance method name 'PUT' doesn't match '[a-z][a-zA-Z0-9]*'
+./reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java:334:	MethodNamingConventions:	The instance method name 'POST' doesn't match '[a-z][a-zA-Z0-9]*'
+./reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java:344:	MethodNamingConventions:	The instance method name 'POST' doesn't match '[a-z][a-zA-Z0-9]*'
+./reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java:354:	MethodNamingConventions:	The instance method name 'POST' doesn't match '[a-z][a-zA-Z0-9]*'
+./reader-web-common/src/test/java/com/sismics/reader/rest/BaseJerseyTest.java:358:	MethodNamingConventions:	The instance method name 'DELETE' doesn't match '[a-z][a-zA-Z0-9]*'
+./reader-web-common/src/test/java/com/sismics/reader/rest/descriptor/JerseyTestWebAppDescriptorFactory.java:15:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-web-common/src/test/java/com/sismics/reader/rest/util/TestValidationUtil.java:24:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-web-common/src/test/java/com/sismics/reader/rest/util/TestValidationUtil.java:30:	EmptyCatchBlock:	Avoid empty catch blocks

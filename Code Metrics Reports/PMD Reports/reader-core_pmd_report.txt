@@ -1,0 +1,184 @@
+./reader-core/src/main/java/com/sismics/reader/core/dao/file/html/FaviconDownloader.java:36:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+./reader-core/src/main/java/com/sismics/reader/core/dao/file/html/FaviconDownloader.java:90:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+./reader-core/src/main/java/com/sismics/reader/core/dao/file/html/FaviconDownloader.java:92:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+./reader-core/src/main/java/com/sismics/reader/core/dao/file/html/FaviconDownloader.java:158:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-core/src/main/java/com/sismics/reader/core/dao/file/html/FaviconExtractor.java:73:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+./reader-core/src/main/java/com/sismics/reader/core/dao/file/html/FaviconExtractor.java:77:	UnnecessaryReturn:	Unnecessary return statement
+./reader-core/src/main/java/com/sismics/reader/core/dao/file/html/RssExtractor.java:75:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+./reader-core/src/main/java/com/sismics/reader/core/dao/file/html/RssExtractor.java:78:	UnnecessaryReturn:	Unnecessary return statement
+./reader-core/src/main/java/com/sismics/reader/core/dao/file/opml/OpmlFlattener.java:15:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/reader/core/dao/file/opml/OpmlReader.java:53:	LooseCoupling:	Avoid using implementation types like 'Stack'; use the interface instead
+./reader-core/src/main/java/com/sismics/reader/core/dao/file/opml/OpmlReader.java:55:	LooseCoupling:	Avoid using implementation types like 'Stack'; use the interface instead
+./reader-core/src/main/java/com/sismics/reader/core/dao/file/opml/OpmlReader.java:107:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+./reader-core/src/main/java/com/sismics/reader/core/dao/file/rss/GuidFixer.java:14:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/reader/core/dao/file/rss/RssReader.java:189:	LooseCoupling:	Avoid using implementation types like 'Stack'; use the interface instead
+./reader-core/src/main/java/com/sismics/reader/core/dao/file/rss/RssReader.java:235:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-core/src/main/java/com/sismics/reader/core/dao/file/rss/RssReader.java:336:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-core/src/main/java/com/sismics/reader/core/dao/file/rss/RssReader.java:465:	EmptyControlStatement:	Empty if statement
+./reader-core/src/main/java/com/sismics/reader/core/dao/file/rss/XmlReader.java:57:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+./reader-core/src/main/java/com/sismics/reader/core/dao/file/rss/XmlReader.java:88:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-core/src/main/java/com/sismics/reader/core/dao/file/rss/XmlReader.java:95:	UselessParentheses:	Useless parentheses.
+./reader-core/src/main/java/com/sismics/reader/core/dao/jpa/UserDao.java:77:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+./reader-core/src/main/java/com/sismics/reader/core/dao/jpa/mapper/FeedSubscriptionMapper.java:30:	SimplifiedTernary:	This conditional expression can be simplified with || or &&
+./reader-core/src/main/java/com/sismics/reader/core/dao/lucene/ArticleDao.java:8:	UnnecessaryImport:	Unused import 'org.apache.lucene.document.*'
+./reader-core/src/main/java/com/sismics/reader/core/dao/lucene/ArticleDao.java:14:	UnnecessaryImport:	Unused import 'org.apache.lucene.search.*'
+./reader-core/src/main/java/com/sismics/reader/core/dao/lucene/ReaderStandardAnalyzer.java:130:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+./reader-core/src/main/java/com/sismics/reader/core/dao/lucene/ReaderStandardAnalyzer.java:130:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+./reader-core/src/main/java/com/sismics/reader/core/listener/async/SubscriptionImportAsyncListener.java:15:	UnnecessaryImport:	Unused import 'com.sismics.reader.core.dao.jpa.*'
+./reader-core/src/main/java/com/sismics/reader/core/listener/async/SubscriptionImportAsyncListener.java:25:	UnnecessaryImport:	Unused import 'com.sismics.reader.core.model.jpa.*'
+./reader-core/src/main/java/com/sismics/reader/core/listener/async/SubscriptionImportAsyncListener.java:133:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-core/src/main/java/com/sismics/reader/core/listener/async/SubscriptionImportAsyncListener.java:143:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/main/java/com/sismics/reader/core/listener/async/SubscriptionImportAsyncListener.java:166:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+./reader-core/src/main/java/com/sismics/reader/core/listener/async/SubscriptionImportAsyncListener.java:171:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-core/src/main/java/com/sismics/reader/core/listener/async/SubscriptionImportAsyncListener.java:259:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-core/src/main/java/com/sismics/reader/core/listener/async/SubscriptionImportAsyncListener.java:269:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/main/java/com/sismics/reader/core/listener/async/SubscriptionImportAsyncListener.java:284:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+./reader-core/src/main/java/com/sismics/reader/core/listener/async/SubscriptionImportAsyncListener.java:288:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-core/src/main/java/com/sismics/reader/core/listener/async/SubscriptionImportAsyncListener.java:491:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+./reader-core/src/main/java/com/sismics/reader/core/listener/sync/DeadEventListener.java:27:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+./reader-core/src/main/java/com/sismics/reader/core/model/context/AppContext.java:7:	UnnecessaryImport:	Unused import 'com.sismics.reader.core.listener.async.*'
+./reader-core/src/main/java/com/sismics/reader/core/model/context/AppContext.java:26:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+./reader-core/src/main/java/com/sismics/reader/core/model/context/AppContext.java:110:	NonThreadSafeSingleton:	Singleton is not thread safe
+./reader-core/src/main/java/com/sismics/reader/core/model/context/AppContext.java:130:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-core/src/main/java/com/sismics/reader/core/model/jpa/Article.java:5:	UnnecessaryImport:	Unused import 'javax.persistence.*'
+./reader-core/src/main/java/com/sismics/reader/core/model/jpa/Article.java:402:	UncommentedEmptyConstructor:	Document empty constructor
+./reader-core/src/main/java/com/sismics/reader/core/model/jpa/Feed.java:260:	UncommentedEmptyConstructor:	Document empty constructor
+./reader-core/src/main/java/com/sismics/reader/core/model/jpa/Job.java:66:	UncommentedEmptyConstructor:	Document empty constructor
+./reader-core/src/main/java/com/sismics/reader/core/model/jpa/JobEvent.java:60:	UncommentedEmptyConstructor:	Document empty constructor
+./reader-core/src/main/java/com/sismics/reader/core/service/FeedService.java:9:	UnnecessaryImport:	Unused import 'com.sismics.reader.core.dao.jpa.*'
+./reader-core/src/main/java/com/sismics/reader/core/service/FeedService.java:23:	UnnecessaryImport:	Unused import 'com.sismics.reader.core.model.jpa.*'
+./reader-core/src/main/java/com/sismics/reader/core/service/FeedService.java:62:	UncommentedEmptyMethodBody:	Document empty method body
+./reader-core/src/main/java/com/sismics/reader/core/service/FeedService.java:66:	UncommentedEmptyMethodBody:	Document empty method body
+./reader-core/src/main/java/com/sismics/reader/core/service/FeedService.java:73:	LambdaCanBeMethodReference:	Lambda expression could be written as a method reference: `this::synchronizeAllFeeds`
+./reader-core/src/main/java/com/sismics/reader/core/service/FeedService.java:74:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+./reader-core/src/main/java/com/sismics/reader/core/service/FeedService.java:104:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+./reader-core/src/main/java/com/sismics/reader/core/service/FeedService.java:428:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+./reader-core/src/main/java/com/sismics/reader/core/service/FeedService.java:429:	AvoidInstanceofChecksInCatchClause:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+./reader-core/src/main/java/com/sismics/reader/core/service/FeedService.java:463:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+./reader-core/src/main/java/com/sismics/reader/core/service/FeedService.java:465:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+./reader-core/src/main/java/com/sismics/reader/core/service/IndexingService.java:126:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+./reader-core/src/main/java/com/sismics/reader/core/util/ConfigUtil.java:14:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/reader/core/util/DirectoryUtil.java:13:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/reader/core/util/DirectoryUtil.java:24:	UnconditionalIfStatement:	Do not use if statements that are always true or always false
+./reader-core/src/main/java/com/sismics/reader/core/util/DirectoryUtil.java:24:	EmptyControlStatement:	Empty if statement
+./reader-core/src/main/java/com/sismics/reader/core/util/EntityManagerUtil.java:10:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/reader/core/util/LuceneUtil.java:20:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/reader/core/util/LuceneUtil.java:85:	UnnecessaryModifier:	Unnecessary modifier 'abstract' on method 'run': the method is declared in an interface type
+./reader-core/src/main/java/com/sismics/reader/core/util/StreamUtil.java:13:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/reader/core/util/TransactionUtil.java:17:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/reader/core/util/UserUtil.java:10:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/reader/core/util/http/ReaderHttpClient.java:69:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-core/src/main/java/com/sismics/reader/core/util/jpa/PaginatedLists.java:19:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/reader/core/util/sanitizer/ArticleSanitizer.java:4:	UnnecessaryImport:	Unused import 'org.owasp.html.*'
+./reader-core/src/main/java/com/sismics/reader/core/util/sanitizer/ArticleSanitizer.java:87:	ControlStatementBraces:	This statement should have braces
+./reader-core/src/main/java/com/sismics/reader/core/util/sanitizer/ArticleSanitizer.java:88:	ControlStatementBraces:	This statement should have braces
+./reader-core/src/main/java/com/sismics/reader/core/util/sanitizer/ArticleSanitizer.java:102:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+./reader-core/src/main/java/com/sismics/reader/core/util/sanitizer/ArticleSanitizer.java:102:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+./reader-core/src/main/java/com/sismics/reader/core/util/sanitizer/ArticleSanitizer.java:151:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'safeHtml'
+./reader-core/src/main/java/com/sismics/reader/core/util/sanitizer/TextSanitizer.java:13:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/util/AdblockUtil.java:51:	UnusedPrivateField:	Avoid unused private fields such as 'interactive'.
+./reader-core/src/main/java/com/sismics/util/AdblockUtil.java:95:	ControlStatementBraces:	This statement should have braces
+./reader-core/src/main/java/com/sismics/util/AdblockUtil.java:134:	ControlStatementBraces:	This statement should have braces
+./reader-core/src/main/java/com/sismics/util/AdblockUtil.java:210:	ControlStatementBraces:	This statement should have braces
+./reader-core/src/main/java/com/sismics/util/AdblockUtil.java:212:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+./reader-core/src/main/java/com/sismics/util/AdblockUtil.java:214:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+./reader-core/src/main/java/com/sismics/util/AdblockUtil.java:214:	ControlStatementBraces:	This statement should have braces
+./reader-core/src/main/java/com/sismics/util/AdblockUtil.java:215:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+./reader-core/src/main/java/com/sismics/util/AdblockUtil.java:216:	ControlStatementBraces:	This statement should have braces
+./reader-core/src/main/java/com/sismics/util/DateUtil.java:18:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/util/DateUtil.java:21:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+./reader-core/src/main/java/com/sismics/util/DateUtil.java:249:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-core/src/main/java/com/sismics/util/DateUtil.java:256:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-core/src/main/java/com/sismics/util/EnvironmentUtil.java:8:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/util/EnvironmentUtil.java:10:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+./reader-core/src/main/java/com/sismics/util/HttpUtil.java:18:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/util/HttpUtil.java:51:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-core/src/main/java/com/sismics/util/HttpUtil.java:80:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-core/src/main/java/com/sismics/util/HttpUtil.java:87:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-core/src/main/java/com/sismics/util/JsonValidationUtil.java:12:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/util/LocaleUtil.java:15:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/util/MessageUtil.java:13:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/util/NetworkUtil.java:17:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/util/NetworkUtil.java:42:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+./reader-core/src/main/java/com/sismics/util/ResourceUtil.java:22:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/util/ResourceUtil.java:35:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+./reader-core/src/main/java/com/sismics/util/ResourceUtil.java:45:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+./reader-core/src/main/java/com/sismics/util/ResourceUtil.java:119:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-core/src/main/java/com/sismics/util/UrlUtil.java:15:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/util/UrlUtil.java:38:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-core/src/main/java/com/sismics/util/UrlUtil.java:71:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+./reader-core/src/main/java/com/sismics/util/UrlUtil.java:76:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+./reader-core/src/main/java/com/sismics/util/adblock/Helper.java:27:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+./reader-core/src/main/java/com/sismics/util/adblock/SubscriptionParser.java:45:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+./reader-core/src/main/java/com/sismics/util/adblock/SubscriptionParser.java:63:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+./reader-core/src/main/java/com/sismics/util/cert/CertUtil.java:16:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/util/cert/CertUtil.java:28:	CloseResource:	Ensure that resources like this Socket object are closed after use
+./reader-core/src/main/java/com/sismics/util/cert/CertUtil.java:41:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-core/src/main/java/com/sismics/util/cert/CertUtil.java:48:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-core/src/main/java/com/sismics/util/cert/TrustAllManager.java:25:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+./reader-core/src/main/java/com/sismics/util/context/ThreadLocalContext.java:10:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+./reader-core/src/main/java/com/sismics/util/jpa/DbOpenHelper.java:66:	CloseResource:	Ensure that resources like this Connection object are closed after use
+./reader-core/src/main/java/com/sismics/util/jpa/DbOpenHelper.java:84:	CloseResource:	Ensure that resources like this ResultSet object are closed after use
+./reader-core/src/main/java/com/sismics/util/jpa/DbOpenHelper.java:113:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+./reader-core/src/main/java/com/sismics/util/jpa/DbOpenHelper.java:159:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/main/java/com/sismics/util/jpa/DialectUtil.java:6:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/main/java/com/sismics/util/jpa/EMF.java:58:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+./reader-core/src/main/java/com/sismics/util/jpa/EMF.java:67:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+./reader-core/src/main/java/com/sismics/util/jpa/EMF.java:72:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+./reader-core/src/main/java/com/sismics/util/jpa/EMF.java:79:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+./reader-core/src/main/java/com/sismics/util/jpa/ResultMapper.java:115:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/main/java/com/sismics/util/jpa/SuppliedConnectionProviderConnectionHelper.java:60:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-core/src/main/java/com/sismics/util/jpa/SuppliedConnectionProviderConnectionHelper.java:60:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+./reader-core/src/main/java/com/sismics/util/log4j/MemoryAppender.java:107:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+./reader-core/src/main/java/com/sismics/util/mime/MimeTypeUtil.java:12:	UseUtilityClass:	This utility class has a non-private constructor
+./reader-core/src/test/java/com/sismics/reader/BaseTransactionalTest.java:29:	UncommentedEmptyMethodBody:	Document empty method body
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/json/TestStarredReader.java:34:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/opml/TestOpmlReader.java:21:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/opml/TestOpmlReader.java:67:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/opml/TestOpmlReader.java:103:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:21:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:44:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:67:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:99:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:122:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:145:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:168:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:191:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:205:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:232:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:257:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:277:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:297:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:318:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:341:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:364:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:386:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:408:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:433:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:456:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:475:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:494:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:515:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:536:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:557:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:578:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:599:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:616:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:637:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/reader/core/dao/file/rss/TestRssReader.java:649:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/util/TestArticleSanitizer.java:27:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/util/TestArticleSanitizer.java:51:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/util/TestArticleSanitizer.java:74:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/util/TestArticleSanitizer.java:99:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/util/TestArticleSanitizer.java:125:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/util/TestArticleSanitizer.java:148:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/util/TestArticleSanitizer.java:171:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/util/TestArticleSanitizer.java:208:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/util/TestArticleSanitizer.java:228:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/util/TestArticleSanitizer.java:248:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/util/TestArticleSanitizer.java:271:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/util/TestArticleSanitizer.java:294:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/util/TestArticleSanitizer.java:317:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/util/TestArticleSanitizer.java:340:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+./reader-core/src/test/java/com/sismics/util/TestCertUtil.java:29:	EmptyCatchBlock:	Avoid empty catch blocks
+./reader-core/src/test/java/com/sismics/util/TestResourceUtil.java:37:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
